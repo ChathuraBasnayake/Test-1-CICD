@@ -8,7 +8,7 @@ public class ProductController {
 
     @GetMapping("/products")
     public String getProducts() {
-        return "List of products";
+        return "List of products success";
     }
 
 }
